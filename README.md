@@ -1,6 +1,11 @@
 # MERN ToDo App
 
 A simple ToDo application built using the MERN stack.
+
+## Deployed Site
+
+The application is deployed and accessible [here](https://benevolent-rolypoly-7932d1.netlify.app/).
+
 ## Overview
 
 This ToDo app allows users to manage their tasks with basic CRUD operations. Users can add, update, delete, and mark tasks as complete.
@@ -38,6 +43,4 @@ MONGODB_URI=your_mongodb_connection_string
 ```
 npm start
 ```
-## Deployed Site
 
-The application is deployed and accessible [here](https://benevolent-rolypoly-7932d1.netlify.app/).
