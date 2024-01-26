@@ -38,3 +38,6 @@ MONGODB_URI=your_mongodb_connection_string
 ```
 npm start
 ```
+## Deployed Site
+
+The application is deployed and accessible [here](https://benevolent-rolypoly-7932d1.netlify.app/).
