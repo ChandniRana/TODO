@@ -7,7 +7,6 @@ This ToDo app allows users to manage their tasks with basic CRUD operations. Use
 
 ## Features
 
-- User authentication
 - Add, update, delete tasks
 - Mark tasks as complete
 - Responsive design
@@ -17,7 +16,7 @@ This ToDo app allows users to manage their tasks with basic CRUD operations. Use
 - **Frontend**: React
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Authentication**: JSON Web Tokens (JWT)
+
 
 ## Getting Started
 
@@ -30,8 +29,12 @@ Follow these instructions to set up and run the ToDo app locally.
 
 ### Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/mern-todo-app.git
-   cd mern-todo-app```
+1. Clone the repository
+2. Create a .env file in the server directory with the following content:
+```
+MONGODB_URI=your_mongodb_connection_string
+```
+3. Start the app
+```
+npm start
+```
